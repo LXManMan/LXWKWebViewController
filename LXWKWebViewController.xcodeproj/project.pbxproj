@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3CC1E2E2030320A0008F845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E2D2030320A0008F845 /* AppDelegate.m */; };
+		F3CC1E312030320A0008F845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E302030320A0008F845 /* ViewController.m */; };
+		F3CC1E342030320A0008F845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC1E322030320A0008F845 /* Main.storyboard */; };
+		F3CC1E362030320A0008F845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CC1E352030320A0008F845 /* Assets.xcassets */; };
+		F3CC1E392030320A0008F845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC1E372030320A0008F845 /* LaunchScreen.storyboard */; };
+		F3CC1E3C2030320A0008F845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E3B2030320A0008F845 /* main.m */; };
+		F3CC1E462030320A0008F845 /* LXWKWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E452030320A0008F845 /* LXWKWebViewControllerTests.m */; };
+		F3CC1E512030320A0008F845 /* LXWKWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E502030320A0008F845 /* LXWKWebViewControllerUITests.m */; };
+		F3CC1E61203032660008F845 /* LXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E60203032660008F845 /* LXWebViewController.m */; };
+		F3CC1E6420303B840008F845 /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E6320303B840008F845 /* LxButton.m */; };
+		F3CC1E6720303FD70008F845 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E6620303FD70008F845 /* UIColor+Expanded.m */; };
+		F3CC1E6A2030402B0008F845 /* LXWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC1E692030402B0008F845 /* LXWebViewProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3CC1E422030320A0008F845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CC1E21203032090008F845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CC1E28203032090008F845;
+			remoteInfo = LXWKWebViewController;
+		};
+		F3CC1E4D2030320A0008F845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CC1E21203032090008F845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CC1E28203032090008F845;
+			remoteInfo = LXWKWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3CC1E29203032090008F845 /* LXWKWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXWKWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC1E2C2030320A0008F845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3CC1E2D2030320A0008F845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3CC1E2F2030320A0008F845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3CC1E302030320A0008F845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3CC1E332030320A0008F845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3CC1E352030320A0008F845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CC1E382030320A0008F845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3CC1E3A2030320A0008F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC1E3B2030320A0008F845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3CC1E412030320A0008F845 /* LXWKWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXWKWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC1E452030320A0008F845 /* LXWKWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWKWebViewControllerTests.m; sourceTree = "<group>"; };
+		F3CC1E472030320A0008F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC1E4C2030320A0008F845 /* LXWKWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXWKWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC1E502030320A0008F845 /* LXWKWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWKWebViewControllerUITests.m; sourceTree = "<group>"; };
+		F3CC1E522030320A0008F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC1E5F203032660008F845 /* LXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXWebViewController.h; sourceTree = "<group>"; };
+		F3CC1E60203032660008F845 /* LXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWebViewController.m; sourceTree = "<group>"; };
+		F3CC1E6220303B840008F845 /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxButton.h; sourceTree = "<group>"; };
+		F3CC1E6320303B840008F845 /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxButton.m; sourceTree = "<group>"; };
+		F3CC1E6520303FD70008F845 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		F3CC1E6620303FD70008F845 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		F3CC1E682030402B0008F845 /* LXWebViewProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXWebViewProgressView.h; sourceTree = "<group>"; };
+		F3CC1E692030402B0008F845 /* LXWebViewProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWebViewProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CC1E26203032090008F845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC1E3E2030320A0008F845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC1E492030320A0008F845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3CC1E20203032090008F845 = {
+			isa = PBXGroup;
+			children = (
+				F3CC1E2B203032090008F845 /* LXWKWebViewController */,
+				F3CC1E442030320A0008F845 /* LXWKWebViewControllerTests */,
+				F3CC1E4F2030320A0008F845 /* LXWKWebViewControllerUITests */,
+				F3CC1E2A203032090008F845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CC1E2A203032090008F845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC1E29203032090008F845 /* LXWKWebViewController.app */,
+				F3CC1E412030320A0008F845 /* LXWKWebViewControllerTests.xctest */,
+				F3CC1E4C2030320A0008F845 /* LXWKWebViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CC1E2B203032090008F845 /* LXWKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC1E2C2030320A0008F845 /* AppDelegate.h */,
+				F3CC1E2D2030320A0008F845 /* AppDelegate.m */,
+				F3CC1E2F2030320A0008F845 /* ViewController.h */,
+				F3CC1E302030320A0008F845 /* ViewController.m */,
+				F3CC1E6520303FD70008F845 /* UIColor+Expanded.h */,
+				F3CC1E6620303FD70008F845 /* UIColor+Expanded.m */,
+				F3CC1E6220303B840008F845 /* LxButton.h */,
+				F3CC1E6320303B840008F845 /* LxButton.m */,
+				F3CC1E5F203032660008F845 /* LXWebViewController.h */,
+				F3CC1E60203032660008F845 /* LXWebViewController.m */,
+				F3CC1E682030402B0008F845 /* LXWebViewProgressView.h */,
+				F3CC1E692030402B0008F845 /* LXWebViewProgressView.m */,
+				F3CC1E322030320A0008F845 /* Main.storyboard */,
+				F3CC1E352030320A0008F845 /* Assets.xcassets */,
+				F3CC1E372030320A0008F845 /* LaunchScreen.storyboard */,
+				F3CC1E3A2030320A0008F845 /* Info.plist */,
+				F3CC1E3B2030320A0008F845 /* main.m */,
+			);
+			path = LXWKWebViewController;
+			sourceTree = "<group>";
+		};
+		F3CC1E442030320A0008F845 /* LXWKWebViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC1E452030320A0008F845 /* LXWKWebViewControllerTests.m */,
+				F3CC1E472030320A0008F845 /* Info.plist */,
+			);
+			path = LXWKWebViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F3CC1E4F2030320A0008F845 /* LXWKWebViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC1E502030320A0008F845 /* LXWKWebViewControllerUITests.m */,
+				F3CC1E522030320A0008F845 /* Info.plist */,
+			);
+			path = LXWKWebViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CC1E28203032090008F845 /* LXWKWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC1E552030320A0008F845 /* Build configuration list for PBXNativeTarget "LXWKWebViewController" */;
+			buildPhases = (
+				F3CC1E25203032090008F845 /* Sources */,
+				F3CC1E26203032090008F845 /* Frameworks */,
+				F3CC1E27203032090008F845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXWKWebViewController;
+			productName = LXWKWebViewController;
+			productReference = F3CC1E29203032090008F845 /* LXWKWebViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3CC1E402030320A0008F845 /* LXWKWebViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC1E582030320A0008F845 /* Build configuration list for PBXNativeTarget "LXWKWebViewControllerTests" */;
+			buildPhases = (
+				F3CC1E3D2030320A0008F845 /* Sources */,
+				F3CC1E3E2030320A0008F845 /* Frameworks */,
+				F3CC1E3F2030320A0008F845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CC1E432030320A0008F845 /* PBXTargetDependency */,
+			);
+			name = LXWKWebViewControllerTests;
+			productName = LXWKWebViewControllerTests;
+			productReference = F3CC1E412030320A0008F845 /* LXWKWebViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3CC1E4B2030320A0008F845 /* LXWKWebViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC1E5B2030320A0008F845 /* Build configuration list for PBXNativeTarget "LXWKWebViewControllerUITests" */;
+			buildPhases = (
+				F3CC1E482030320A0008F845 /* Sources */,
+				F3CC1E492030320A0008F845 /* Frameworks */,
+				F3CC1E4A2030320A0008F845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CC1E4E2030320A0008F845 /* PBXTargetDependency */,
+			);
+			name = LXWKWebViewControllerUITests;
+			productName = LXWKWebViewControllerUITests;
+			productReference = F3CC1E4C2030320A0008F845 /* LXWKWebViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CC1E21203032090008F845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					F3CC1E28203032090008F845 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F3CC1E402030320A0008F845 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3CC1E28203032090008F845;
+					};
+					F3CC1E4B2030320A0008F845 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3CC1E28203032090008F845;
+					};
+				};
+			};
+			buildConfigurationList = F3CC1E24203032090008F845 /* Build configuration list for PBXProject "LXWKWebViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CC1E20203032090008F845;
+			productRefGroup = F3CC1E2A203032090008F845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CC1E28203032090008F845 /* LXWKWebViewController */,
+				F3CC1E402030320A0008F845 /* LXWKWebViewControllerTests */,
+				F3CC1E4B2030320A0008F845 /* LXWKWebViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CC1E27203032090008F845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC1E392030320A0008F845 /* LaunchScreen.storyboard in Resources */,
+				F3CC1E362030320A0008F845 /* Assets.xcassets in Resources */,
+				F3CC1E342030320A0008F845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC1E3F2030320A0008F845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC1E4A2030320A0008F845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CC1E25203032090008F845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC1E6720303FD70008F845 /* UIColor+Expanded.m in Sources */,
+				F3CC1E312030320A0008F845 /* ViewController.m in Sources */,
+				F3CC1E6420303B840008F845 /* LxButton.m in Sources */,
+				F3CC1E61203032660008F845 /* LXWebViewController.m in Sources */,
+				F3CC1E3C2030320A0008F845 /* main.m in Sources */,
+				F3CC1E6A2030402B0008F845 /* LXWebViewProgressView.m in Sources */,
+				F3CC1E2E2030320A0008F845 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC1E3D2030320A0008F845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC1E462030320A0008F845 /* LXWKWebViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC1E482030320A0008F845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC1E512030320A0008F845 /* LXWKWebViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3CC1E432030320A0008F845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CC1E28203032090008F845 /* LXWKWebViewController */;
+			targetProxy = F3CC1E422030320A0008F845 /* PBXContainerItemProxy */;
+		};
+		F3CC1E4E2030320A0008F845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CC1E28203032090008F845 /* LXWKWebViewController */;
+			targetProxy = F3CC1E4D2030320A0008F845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3CC1E322030320A0008F845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CC1E332030320A0008F845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3CC1E372030320A0008F845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CC1E382030320A0008F845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3CC1E532030320A0008F845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3CC1E542030320A0008F845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CC1E562030320A0008F845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL3GGVA2PM;
+				INFOPLIST_FILE = LXWKWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXWKWebViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CC1E572030320A0008F845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL3GGVA2PM;
+				INFOPLIST_FILE = LXWKWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXWKWebViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3CC1E592030320A0008F845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXWKWebViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXWKWebViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXWKWebViewController.app/LXWKWebViewController";
+			};
+			name = Debug;
+		};
+		F3CC1E5A2030320A0008F845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXWKWebViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXWKWebViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXWKWebViewController.app/LXWKWebViewController";
+			};
+			name = Release;
+		};
+		F3CC1E5C2030320A0008F845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXWKWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXWKWebViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXWKWebViewController;
+			};
+			name = Debug;
+		};
+		F3CC1E5D2030320A0008F845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXWKWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXWKWebViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXWKWebViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CC1E24203032090008F845 /* Build configuration list for PBXProject "LXWKWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC1E532030320A0008F845 /* Debug */,
+				F3CC1E542030320A0008F845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CC1E552030320A0008F845 /* Build configuration list for PBXNativeTarget "LXWKWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC1E562030320A0008F845 /* Debug */,
+				F3CC1E572030320A0008F845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CC1E582030320A0008F845 /* Build configuration list for PBXNativeTarget "LXWKWebViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC1E592030320A0008F845 /* Debug */,
+				F3CC1E5A2030320A0008F845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CC1E5B2030320A0008F845 /* Build configuration list for PBXNativeTarget "LXWKWebViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC1E5C2030320A0008F845 /* Debug */,
+				F3CC1E5D2030320A0008F845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CC1E21203032090008F845 /* Project object */;
+}
